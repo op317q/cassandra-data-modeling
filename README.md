@@ -52,8 +52,8 @@ cd cassandra-data-modeling
 2. Create and activate a new environment.
 
 ```
-conda create -n postgres-data-modeling python=3.6
-source activate postgres-data-modeling
+conda create -n cassandra-data-modeling python=3.6
+source activate cassandra-data-modeling
 
 ```
 
