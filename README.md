@@ -32,11 +32,11 @@ ETL will iterate through each event file in event_data to process and create a n
 THis file will be used to populate the Cassandra tables that is optimised and denormalized for the 3 queries above. 
 The 3 tables will be used to get the result for the above query
 
-- music_history : artist, song title and song length information for a given sessionId and itemInSessionId.
+- musicInfo_by_session_by_item : artist, song title and song length information for a given sessionId and itemInSessionId.
 
-- user_history : artist, song and user for a given userId and sessionId.
+- musicInfo_by_session_by_userid : artist, song and user for a given userId and sessionId.
 
-- song_history : user names for a given song.
+- userInfo_by_song : user names for a given song.
 
 
  
